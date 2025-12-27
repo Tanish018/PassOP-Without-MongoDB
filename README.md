@@ -1,3 +1,80 @@
+# PassOP
+
+ A lightweight client-side password manager built with React and Vite — stores data locally (no MongoDB).
+
+ ## Features
+
+ - Add, view, and manage saved credentials
+ - Password copying to clipboard
+ - Persisted in browser `localStorage` (no server required)
+ - Simple, responsive UI using React components
+
+ ## Tech Stack
+
+ - React (JSX)
+ - Vite
+ - Plain CSS
+
+ ## Prerequisites
+
+ - Node.js v16+ and npm
+
+ ## Quick Start
+
+ 1. Install dependencies
+
+ ```bash
+ npm install
+ ```
+
+ 2. Run development server
+
+ ```bash
+ npm run dev
+ ```
+
+ 3. Build for production
+
+ ```bash
+ npm run build
+ ```
+
+ 4. Preview production build
+
+ ```bash
+ npm run preview
+ ```
+
+ ## Project Structure (key files)
+
+ - `index.html` — app entry HTML
+ - `vite.config.js` — Vite config
+ - `src/main.jsx` — React entry
+ - `src/App.jsx` — main App component
+ - `src/components/Manager.jsx` — password manager UI and logic
+ - `src/components/Navbar.jsx` — top navigation
+ - `src/components/Footer.jsx` — footer
+
+ If you need to inspect or modify storage logic, check `src/components/Manager.jsx`.
+
+ ## Environment
+
+ No external API or database is required. All data is stored locally in the browser.
+
+ ## Contributing
+
+ 1. Fork the repo
+ 2. Create a feature branch (`git checkout -b feature/my-change`)
+ 3. Commit your changes (`git commit -m "feat: ..."`)
+ 4. Push and open a PR
+
+ ## License
+
+ MIT
+
+ ---
+
+ If you'd like a more detailed README (screenshots, security notes, encryption instructions, or CI/CD), tell me what to include and I'll update it.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
